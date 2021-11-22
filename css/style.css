@@ -1,0 +1,307 @@
+.warpper{
+    border-top: solid 8px #6CC6C4;
+}
+body{
+    background-color: #F6F6F6;
+    font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+/* header */
+.header-warp{
+    width: 920px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img{
+padding-top: 50px;
+}
+
+.header-catchcopy{
+    font-size: 10px;
+    color: #515151;
+    padding-top: 10px;
+}
+
+.header-tell{
+    position: relative;
+    font-size: 26px;
+    color: #515151;
+    text-align: right;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+.header-tell::before{
+    background-image: url("https://haniwaman.com/sample/part3/template_08/common/images/bgTel.png");
+    content: "";
+    display: block;
+    background-size: cover;
+    position: absolute;
+    top: 17px;
+    left: 0px;
+    height: 25px;
+    width: 20px;
+    margin: 0px;
+}
+
+.header-time{
+    font-size: 10px;
+    color: #515151;
+    border: solid 1px #D6D6D6;
+    padding: 5px 0;
+    text-align: center;
+    width: 220px;
+    line-height: 18px;
+}
+
+.header-red{
+    color: #B22C00;
+    padding-left: 3px;
+}
+/* メニュー */
+.header-nav ul{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: solid 1px #6CC6C4;
+}
+
+.header-nav li{
+    list-style: none;
+    width: 182px;
+    height: 70px;
+    text-shadow: 1px 1px 2px #6CC6C4;
+    border-right: #71C9C7 solid 1px;
+    border-left: #99E1DF solid 1px;
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.header-nav li:hover{
+    background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 17px 0px 18px;
+}
+
+
+
+.header-nav_titleja{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.header-nav_titleen{
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main-warp{
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* sidebar */
+.sidebar{
+    width: 260px;
+}
+.sidebar-title{
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    color: #fff;
+    border-radius: 6px 6px 0px 0px;
+    padding: 0px 15px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid  #6CC6C4;
+}
+
+.sidebar-colum{
+    background-color: #fff;
+}
+
+.sidebar li{
+    position: relative;
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px 12px;
+    border-bottom: #6CC6C4 solid 1px;
+}
+
+.sidebar li::before{
+    content: "";
+    display: block;
+    background-size: cover;
+    position: absolute;
+    top: 16px;
+    left: 5px;
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+    background-image: url("https://haniwaman.com/sample/part3/template_08/common/images/bgListIcon01.png");
+}
+
+.sidebar a{
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #595959;
+    font-weight: 700;
+}
+
+.sidebar ul{
+    border: 1px solid  #6CC6C4;
+    margin-bottom: 20px;
+}
+
+li.bottom{
+    margin-bottom: 20px;
+}
+
+.sidebar-list a:hover{
+    color: #6cc6c4;
+}
+
+.sidebar-list02 a:hover{
+    color: #aec24c;
+}
+/* main */
+.info{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.info-title_area{
+    border-bottom: solid 3px #6CC6C4;
+    margin-bottom: 15px;
+
+}
+
+.info-title{
+    font-size: 16px;
+    color: #515151;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.news ul{
+    padding: 0 10px 10px;
+}
+
+.news li{
+    padding: 10px 0;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px #CCCCCC dotted;
+}
+
+.news span{
+    font-size: 13px;
+    font-weight: 700;
+    color: #515151;
+}
+
+.news dl{
+    font-size: 13px;
+    color: #515151;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+/* footer */
+.footer-warp{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.footer-menu{
+    margin-top: 30px;
+}
+
+.footer-menu li{
+    position: relative;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.footer-menu li::before{
+    content: "";
+    display: block;
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    height: 16px;
+    width: 16px;
+    margin: 0px;
+    background-image: url("https://haniwaman.com/sample/part3/template_08/common/images/bgFooterIcon.png");
+}
+
+.footer-menu ul{
+    display: flex;
+    padding: 0 0 0 15px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #6CC6C4;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.footer-menu a:hover{
+    text-decoration: underline;
+}
+
+.footer-address{
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+}
+
+.footer-address strong{
+    font-size: 13px;
+    color: #515151;
+}
+
+.footer-address span{
+    font-size: 13px;
+    color: #515151;
+}
+
+.copyright{
+    padding: 10px 0;
+    text-align: center;
+    border-top: solid 2px #6CC6C4;
+    font-size: 12px;
+    color: #515151;
+}
